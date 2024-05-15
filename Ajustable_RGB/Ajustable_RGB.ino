@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
-const int greenLEDPin = 9;
+const int greenLEDPin = 10;
 const int redLEDPin = 11;
-const int blueLEDPin = 10;
+const int blueLEDPin = 9;
 const int redSensorPin = A0;
 const int greenSensorPin = A1;
 const int blueSensorPin = A2;
