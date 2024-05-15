@@ -1,5 +1,7 @@
-# Measuring with a Sonar
+# Measuring with a Sonar and maybe create an theremin?
 
-Using a HC-SR04 (Ultrasonic distance sensor) we can measure distances!
+Utilizing an HC-SR04 ultrasonic distance sensor, we can accurately measure distances. 
 
-And we can make him activate a Buzzer if it reads the distance we want.
+We can program it to trigger a buzzer once it detects a specific distance. 
+
+So, why not adjust the tone based on the distance as well?
