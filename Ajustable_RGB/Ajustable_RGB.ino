@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 const int greenLEDPin = 10;
 const int redLEDPin = 11;
 const int blueLEDPin = 9;
