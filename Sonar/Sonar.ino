@@ -10,16 +10,16 @@ void setup() {
 void loop() {
 
   digitalWrite(PIN_TRIG, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(10); // to get a pulse
   digitalWrite(PIN_TRIG, LOW);
 
   int duration = pulseIn(PIN_ECHO, HIGH);
-  int dist = duration / 58;
+  int dist = duration / 58; // to get the value em Centemeters or /148 to get in Inches
 
-  Serial.print("Distância em CM: ");
+  Serial.print("Distance em CM: ");
   Serial.println(dist);
 
-  int pitch = map(dist, 0, 190, 50, 4000);
+  int pitch = map(dist, 0, 190, 50, 4000); // map the values of the distance to "tone" values
 
   if (dist > 10) 
   {
